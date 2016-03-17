@@ -1,0 +1,6 @@
+node_modules
+youtube-dl
+ffmpeg
+tagit
+npm-debug.log
+*.swp
