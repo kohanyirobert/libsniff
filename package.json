@@ -3,16 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "postinstall": "node postinstall.js",
-    "test": "mocha test.js"
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "lodash": "^4.11.1"
   },
   "devDependencies": {
-    "carrier": "^0.3.0",
-    "chai": "^3.5.0",
-    "libsniff-ffmpeg": "git://github.com/kohanyirobert/libsniff-ffmpeg.git#v0.0.3",
-    "libsniff-tagit": "git://github.com/kohanyirobert/libsniff-tagit.git#v0.0.2",
-    "libsniff-youtube-dl": "git://github.com/kohanyirobert/libsniff-youtube-dl.git#v0.0.3",
-    "mocha": "^2.4.5",
-    "q": "^1.4.1"
+    "libsniff-ffmpeg": "git://github.com/kohanyirobert/libsniff-ffmpeg.git#v0.1.1",
+    "libsniff-tagit": "git://github.com/kohanyirobert/libsniff-tagit.git#v0.1.2",
+    "libsniff-youtube-dl": "git://github.com/kohanyirobert/libsniff-youtube-dl.git#v0.1.1"
   }
 }

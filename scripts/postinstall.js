@@ -1,8 +1,8 @@
+var _ = require('lodash')
 var fs = require('fs')
 var ffmpegDownload = require('libsniff-ffmpeg')
-var ytdlDownload = require('libsniff-youtube-dl')
 var tagitDownload = require('libsniff-tagit')
-var _ = require('lodash')
+var ytdlDownload = require('libsniff-youtube-dl')
 
 var doDownload = function(name, fn, opts) {
   fs.stat(name, function(err, stats) {
